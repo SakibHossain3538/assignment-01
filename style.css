@@ -198,7 +198,7 @@ nav{
 }
 /* section-5 */
 .section-5-main{
-  padding: 0px 150px 0px 150px;
+  padding: 0px 150px 50px 150px;
   display: flex;
   gap: 100px;
 }
@@ -206,7 +206,8 @@ nav{
   color: #000000;
   font-size: 97px;
   font-weight: bold;
-  margin: 120px 0px;
+  margin: 120px 0px 0px 0px;
+  padding-right: 260px;
 }
 .section-5-form{
   display: flex;
@@ -238,4 +239,37 @@ section input[type="text"]{
   width: 100%;
   margin-top:19px;
   font-size: 16px;
+}
+footer{
+  
+    background-color: #FFFFFF;
+}
+.footer-div-main{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+   padding:104px 455px 103px 454px;
+}
+.footer-logo{
+  font-size: 100px;
+}
+.footer-div-main1{
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(137, 135, 161,1);
+  padding-bottom: 20px;
+}
+footer a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(137, 135, 161,1);
+  margin-top: 20px;
+  padding-right: 48px;
+}
+.footer-div-a{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(137, 135, 161,1);
 }
