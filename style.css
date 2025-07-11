@@ -170,3 +170,29 @@ nav{
   display: flex;
   justify-content: space-between;
 }
+/* Section-04*/
+.section-4-main{
+    margin: 0px 149px 93px 151px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px;
+}
+.section-4-div1{
+  font-size: 50px;
+  font-weight: bold;
+  padding: 71px 312px 20px 312px;
+}
+.section-4-div2{
+    color: rgba(0,0,0,.5);
+    padding: 0px 326.5px 20px 326.5px;
+}
+.section-4-button{
+ margin-bottom: 20px;
+}
+.section-4-img{
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
